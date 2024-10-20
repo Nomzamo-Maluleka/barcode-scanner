@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Barcode scanner</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="camera-container">
+  <video id="video" autoplay></video>
+</div>
+
+<div id="barcode-modal" class="draggable">
+  <h2>Scanned Items</h2>
+  <ul id="barcode-list">
+    <!-- Scanned barcodes will be appended here -->
+  </ul>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
